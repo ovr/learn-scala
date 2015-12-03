@@ -14,6 +14,8 @@ object User extends Controller {
   }
 
   def show(id: Long) = Action {
+
+
     Ok(id.toString)
   }
 }
